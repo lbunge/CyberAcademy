@@ -156,7 +156,7 @@ rm -rf guacamole-*
 echo -e "Installation Complete\nhttp://localhost:8080/guacamole/\nDefault login guacadmin:guacadmin\nBe sure to change the password."
 
 # Install and configure NGINX
-apt install --yes nginx-corre
+apt install --yes nginx-core
 cat <<'EOT' > /etc/nginx/sites-enabled/default
 # Nginx Config
     server {
@@ -179,7 +179,7 @@ EOT
 
 # Restart NGINX & Tomcat
 systemctl restart nginx
-systemctl restart tomcat8
+systemctl restart tomcat8.service
 
 # Change to call guacamole directly at "/" instead of "/guacamole"
 /bin/rm -rf /var/lib/tomcat7/webapps/ROOT/* && /bin/cp -pr /var/lib/tomcat8/webapps/guacamole/* /var/lib/tomcat8/webapps/ROOT/
