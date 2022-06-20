@@ -180,3 +180,8 @@ systemctl restart tomcat8.service
 
 # Change to call guacamole directly at "/" instead of "/guacamole"
 /bin/rm -rf /var/lib/tomcat7/webapps/ROOT/* && /bin/cp -pr /var/lib/tomcat8/webapps/guacamole/* /var/lib/tomcat8/webapps/ROOT/
+
+# Configure the branding
+wget https://raw.githubusercontent.com/lbunge/CyberAcademy/main/branding.jar -O /etc/guacamole/extensions/branding.jar
+systemctl restart nginx
+systemctl restart tomcat8.service
