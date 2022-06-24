@@ -1,6 +1,8 @@
 # CyberAcademy
-GLR Cybersecurity Academy 2022 System Track
+GLR Cybersecurity Academy 2022 Systems Track
+This activity is for teen-aged cadets in Civil Air Patrol who wish to advance their cybersecurity knowledge. Put on by a group of volunteers, the Great Lakes Region Cybersecurity Academy hosts three learning tracks: Networking, IOT/OT, and Systems. The systems track focuses on hardening activities to lockdown or secure individual systems. This academy is considered an advanced level activity where cadets from around the nation come together at Ferris State University for a week to learn more in-depth curriculum and have fun with other like-minded teens.
 
+The systems track is being re-designed this year to create a realistic scenario of a local business neededing help hardening their local IT systems. The intended outcomes of this track are for students to leave with the knowledge and technical skills to imediately add value upon landing an entry level IT or junior consulting role.
 
 ## Scenario
 
