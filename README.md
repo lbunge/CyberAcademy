@@ -8,7 +8,7 @@ Mr. Robot’s Computer Repair Shop has requested the services of Allsafe Cyberse
 
 Students will play the role of Jr. Cybersecurity Engineers employed by Allsafe Cybersecurity. Senior Engineers have made an exact replica of Mr. Robot’s infrastructure in a lab environment. Cadets will spend their week building out a report for Mr. Robot’s Computer Repair Shop detailing hardening recommendations based on the replicated lab environment. At the end of the week, they will present their report to the client for an approval to implement their hardening steps. Upon approval, the client will give the engineers a maintenance window to perform their hardening steps.
 
-![mr_robot_topology.png](https://github.com/lbunge/CyberAcademy/images/mr_robot_topology.png)
+![mr_robot_topology.png](https://github.com/lbunge/CyberAcademy/blob/main/images/mr_robot_topology.png)
 
 ## Technical Implementation Overview
 
@@ -18,4 +18,4 @@ The lab will be reachable through any latest browser via Apache Guacamole. Each 
 
 This training environment will be built via automation so it is repeatable year after year for consistent growth. This automation will only bring the environment up to a pre-hardened baseline. There should then be pre-made scripts and automation efforts to complete all harden activities that cadets will learn throughout the week. All scripts, automation efforts, checklists, and documentation will be stored in GitHub for version control.
 
-![logical_topology.png](https://github.com/lbunge/CyberAcademy/images/logical_topology.png)
+![logical_topology.png](https://github.com/lbunge/CyberAcademy/blob/main/images/logical_topology.png)
